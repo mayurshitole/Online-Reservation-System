@@ -1,0 +1,37 @@
+/*
+	Readme file for the project on "Movie Reservation System"
+	by Shah Hardik,Gadekar Isha, Krishnamurthy Mridula, Shitole Mayur, Vasavada Ved
+*/
+
+In this project, we have a Movie Reservation System, where the client can log into the 
+system using a browser like Firefox, and book the tickets for a movie of his choice. The 
+client can either book single or multiple tickets for the movies, as long as the tickets 
+are available and not previously booked by other clients.
+
+We have a database management system such as MySQL to store and retrieve the client information.
+For this, the 'username', 'password' and 'database' used of the MySQL database stored in the 
+server program should be changed to the values on the workstation the program is compiled and run. 
+
+static char *user = "root";
+static char *pass = "welcome123#";
+static char *dbname = "test";
+
+The above values are used in our server, which are to be replaced by the host username, password 
+and database name respectively.
+
+Also, an sql file "test.sql" is attached in this folder, which explains the SQL queries to be 
+implemented on the database.
+
+A make file is provided in this folder for compiling all the source coe files into a single 
+object file.
+
+Compile:
+
+	make clean
+	make
+
+Run:
+	./movieserver2 <port_number> <root_directory>
+
+Example: If we are running at port 2000 and the root is /home/project
+	./movieserver2 2000 /home/project

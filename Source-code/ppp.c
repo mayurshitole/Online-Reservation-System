@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(){
+	
+	printf("<html><head><meta charset=\"utf-8\"><title>seats</title><link rel=\"stylesheet\" type=\"text/css\" href=\"content.css\"></head><body><div class=\"plane\"><div class=\"cockpit\"><h1>Please select a seat</h1></div><ol><li class=\"row row--1\"><ol class=\"seats\" type=\"A\"><li class=\"seat\"><input type=\"checkbox\" id=\"1A\" /><label for=\"1A\">1A</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"1B\" /><label for=\"1B\">1B</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"1C\" /><label for=\"1C\">1C</label></li><li class=\"seat\"><input type=\"checkbox\" disabled id=\"1D\" /><label for=\"1D\">1D</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"1E\" /><label for=\"1E\">1E</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"1F\" /><label for=\"1F\">1F</label></li></ol></li><li class=\"row row--2\"><ol class=\"seats\" type=\"A\"><li class=\"seat\"><input type=\"checkbox\" id=\"2A\" /><label for=\"2A\">2A</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"2B\" /><label for=\"2B\">2B</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"2C\" /><label for=\"2C\">2C</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"2D\" /><label for=\"2D\">2D</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"2E\" /><label for=\"2E\">2E</label></li><li class=\"seat\"><input type=\"checkbox\" id=\"2F\" /><label for=\"2F\">2F</label></li></ol></li></ol></div></body></html>");
+	
+}
